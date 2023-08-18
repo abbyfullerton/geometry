@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+  .message-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 20px;
+  }
+
+  .math-decorations {
+    font-size: 14px;
+    color: #555555;
+  }
+</style>
+<title>You Failed Geo</title>
+</head>
+<body>
+  <div class="message-container">
+    <p class="message">You failed geo</p>
+    <p class="math-decorations">∫(sin(x)/x)dx | π ≈ 3.14159...</p>
+    <p class="math-decorations">e^(iπ) + 1 = 0</p>
+    <p class="math-decorations">Σ(n^2) = n(n+1)(2n+1)/6</p>
+  </div>
+</body>
+</html>
